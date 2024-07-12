@@ -1,5 +1,5 @@
-#!name=selfuse
-#!desc=personal rules
+#!name=Selfuse
+#!desc=Personal Rules
 
 [Rule]
 DOMAIN-SUFFIX, withgoogle.com, Proxy
