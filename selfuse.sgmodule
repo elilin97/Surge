@@ -1,5 +1,9 @@
 #!name=Selfuse
-#!desc=Personal Rules
+#!desc=Personal Rules & Setting
+
+[General]
+ipv6 = true
+ipv6-vif = auto
 
 [Rule]
 DOMAIN-SUFFIX, withgoogle.com, Proxy
