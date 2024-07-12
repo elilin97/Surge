@@ -1,4 +1,4 @@
-#!name=Self-use
+#!name=Self-Use
 #!desc=Personal Rules & Settings
 #!author=Elilin
 #!category=🥰 Lin's Settings
@@ -8,9 +8,10 @@ ipv6 = true
 ipv6-vif = auto
 
 [Rule]
-DOMAIN-SUFFIX, withgoogle.com, Proxy
-DOMAIN-SUFFIX, googleapis.com, Proxy
-DOMAIN-SUFFIX, google.dev, Proxy
+DOMAIN-SUFFIX, withgoogle.com,Proxy
+DOMAIN-SUFFIX, googleapis.com,Proxy
+DOMAIN-SUFFIX, google.dev,Proxy
+DOMAIN-SUFFIX,tesla.cn,DIRECT
 DOMAIN-KEYWORD,tuya,DIRECT
 DOMAIN-KEYWORD,autobangumi,DIRECT
 DOMAIN-KEYWORD,cntv.sbs,DIRECT
@@ -18,7 +19,6 @@ DOMAIN-KEYWORD,nwkj,DIRECT
 DOMAIN-KEYWORD,189smarthome,DIRECT
 DOMAIN-KEYWORD,synology,DIRECT
 DOMAIN-KEYWORD,taobao,DIRECT
-DOMAIN-SUFFIX,tesla.cn,DIRECT
 //DOMAIN,d18dyiwu97wm6q.cloudfront.net,DIRECT
 USER-AGENT,AptvPlayer/1.3.5,DIRECT
 USER-AGENT,iPlayTV/3.3.10,DIRECT
