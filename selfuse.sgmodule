@@ -1,5 +1,7 @@
-#!name=Selfuse
-#!desc=Personal Rules & Setting
+#!name=Self-use
+#!desc=Personal Rules & Settings
+#!author=Elilin
+#!category=🥰 Lin's Settings
 
 [General]
 ipv6 = true
