@@ -11,7 +11,8 @@ ipv6-vif = auto
 DOMAIN-SUFFIX, withgoogle.com,Proxy
 DOMAIN-SUFFIX, googleapis.com,Proxy
 DOMAIN-SUFFIX, google.dev,Proxy
-DOMAIN-SUFFIX,tesla.cn,DIRECT
+DOMAIN-SUFFIX, tesla.cn,DIRECT
+DOMAIN-SUFFIX, quickconnect.cn,DIRECT
 DOMAIN-KEYWORD,tuya,DIRECT
 DOMAIN-KEYWORD,autobangumi,DIRECT
 DOMAIN-KEYWORD,cntv,DIRECT
