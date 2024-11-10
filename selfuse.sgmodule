@@ -24,3 +24,4 @@ DOMAIN-KEYWORD,taobao,DIRECT
 DOMAIN-KEYWORD,myreadingmanga,Proxy
 //DOMAIN,d18dyiwu97wm6q.cloudfront.net,DIRECT
 USER-AGENT,AptvPlayer/1.3.5,DIRECT
+RULE-SET, https://raw.githubusercontent.com/elilin97/Surge/refs/heads/main/Myrule.list, MyRule
