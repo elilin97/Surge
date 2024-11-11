@@ -7,9 +7,6 @@
 ipv6 = true
 ipv6-vif = auto
 
-[Proxy Group]
-MyRule = select, Direct, Proxy, 🇭🇰 香港 AC [01], 🇭🇰 香港 AC [02], 🇭🇰 香港 AC [03], 🇭🇰 香港 IEPL [01] [Air], 🇭🇰 香港 IEPL [02] [Air], 🇭🇰 香港 IEPL [03] [Std], 🇭🇰 香港 IEPL [04] [Std], 🇭🇰 香港 IEPL [05] [Pro], 🇭🇰 香港 IEPL [06] [Pro], 🇭🇰 香港 IEPL [07] [Ultra], 🇭🇰 香港 IEPL [08] [Ultra], 🇨🇳 台湾 AC, 🇨🇳 台湾 IEPL [01] [Air], 🇨🇳 台湾 IEPL [02] [Air], 🇨🇳 台湾 IEPL [03] [Std], 🇨🇳 台湾 IEPL [04] [Pro], 🇨🇳 台湾 IEPL [05] [Ultra], 🇸🇬 新加坡 AC, 🇸🇬 新加坡 IEPL [01] [Air], 🇸🇬 新加坡 IEPL [02] [Air], 🇸🇬 新加坡 IEPL [03] [Std], 🇸🇬 新加坡 IEPL [04] [Pro], 🇸🇬 新加坡 IEPL [05] [Ultra], 🇯🇵 日本 IEPL [01] [Air], 🇯🇵 日本 IEPL [02] [Air], 🇰🇷 韩国 AC, 🇰🇷 韩国 IEPL [01] [Air], 🇰🇷 韩国 IEPL [02] [Air], 🇰🇷 韩国 IEPL [03] [Ultra], 🇺🇸 美国 AC, 🇺🇸 美国 IEPL [01] [Air], 🇺🇸 美国 IEPL [02] [Air], 🇺🇸 美国 IEPL [03] [Ultra], 🇷🇺 俄罗斯 IEPL [01] [Air], 🇷🇺 俄罗斯 IEPL [02] [Air], 🇨🇦 加拿大 IEPL [01] [Air], 🇨🇦 加拿大 IEPL [02] [Air], 🇮🇳 印度 IEPL [01] [Air], 🇮🇳 印度 IEPL [02] [Air], 🇹🇷 土耳其 IEPL [01] [Air], 🇹🇷 土耳其 IEPL [02] [Air], 🇳🇬 尼日利亚 IEPL [01] [Air], 🇳🇬 尼日利亚 IEPL [02] [Air], 🇧🇷 巴西 IEPL [01] [Air], 🇧🇷 巴西 IEPL [02] [Air], 🇩🇪 德国 AC, 🇩🇪 德国 IEPL [01] [Air], 🇩🇪 德国 IEPL [02] [Air], 🇩🇪 德国 IEPL [03] [Ultra], 🇫🇷 法国 IEPL [01] [Air], 🇫🇷 法国 IEPL [02] [Air], 🇹🇭 泰国 IEPL [01] [Air], 🇹🇭 泰国 IEPL [02] [Air], 🇦🇺 澳大利亚 IEPL [01] [Air], 🇦🇺 澳大利亚 IEPL [02] [Air], 🇬🇧 英国 AC, 🇬🇧 英国 IEPL [01] [Air], 🇬🇧 英国 IEPL [02] [Air], 🇬🇧 英国 IEPL [03] [Ultra], 🇵🇭 菲律宾 IEPL [01] [Air], 🇵🇭 菲律宾 IEPL [02] [Air], 🇦🇷 阿根廷 IEPL [01] [Air], 🇦🇷 阿根廷 IEPL [02] [Air], 🇲🇾 马来西亚 IEPL [01] [Air], 🇲🇾 马来西亚 IEPL [02] [Air]
-
 
 [Rule]
 DOMAIN-SUFFIX, withgoogle.com,Proxy
@@ -28,4 +25,3 @@ DOMAIN-KEYWORD,taobao,DIRECT
 DOMAIN-KEYWORD,myreadingmanga,Proxy
 //DOMAIN,d18dyiwu97wm6q.cloudfront.net,DIRECT
 USER-AGENT,AptvPlayer/1.3.5,DIRECT
-RULE-SET, https://raw.githubusercontent.com/elilin97/Surge/refs/heads/main/Myrule.list, MyRule
