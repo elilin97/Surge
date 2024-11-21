@@ -9,6 +9,7 @@ ipv6-vif = auto
 hide-vpn-icon = true
 
 [Rule]
+DOMAIN-SUFFIX, ls.apple.com,DIRECT
 DOMAIN-SUFFIX, withgoogle.com,Proxy
 DOMAIN-SUFFIX, googleapis.com,Proxy
 DOMAIN-SUFFIX, google.dev,Proxy
