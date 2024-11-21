@@ -6,7 +6,7 @@
 [General]
 ipv6 = true
 ipv6-vif = auto
-
+hide-vpn-icon = true
 
 [Rule]
 DOMAIN-SUFFIX, withgoogle.com,Proxy
