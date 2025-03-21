@@ -26,3 +26,4 @@ DOMAIN-KEYWORD,sophnet,DIRECT
 DOMAIN-KEYWORD,myreadingmanga,Proxy
 //DOMAIN,d18dyiwu97wm6q.cloudfront.net,DIRECT
 USER-AGENT,AptvPlayer/1.3.5,DIRECT
+PROCESS-NAME,Battle.net,DIRECT
