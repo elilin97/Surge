@@ -6,6 +6,7 @@
 [General]
 ipv6 = true
 ipv6-vif = auto
+tun-excluded-routes = 127.0.0.0/8
 
 [Rule]
 DOMAIN-SUFFIX, withgoogle.com,Proxy
