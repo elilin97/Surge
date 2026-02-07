@@ -9,10 +9,6 @@ ipv6-vif = auto
 tun-excluded-routes = 127.0.0.0/8
 
 [Rule]
-DOMAIN-SUFFIX, withgoogle.com,Proxy
-DOMAIN-SUFFIX, googleapis.com,Proxy
-DOMAIN-SUFFIX, google.dev,Proxy
-DOMAIN-SUFFIX, figma.com,Proxy
 DOMAIN-SUFFIX, tesla.cn,DIRECT
 DOMAIN-SUFFIX, quickconnect.cn,DIRECT
 DOMAIN-KEYWORD,tuya,DIRECT
@@ -25,7 +21,6 @@ DOMAIN-KEYWORD,synology,DIRECT
 DOMAIN-KEYWORD,taobao,DIRECT
 DOMAIN-KEYWORD,fastmodels,DIRECT
 DOMAIN-KEYWORD,sophnet,DIRECT
-DOMAIN-KEYWORD,myreadingmanga,Proxy
 //DOMAIN,d18dyiwu97wm6q.cloudfront.net,DIRECT
 USER-AGENT,AptvPlayer/1.3.5,DIRECT
 PROCESS-NAME,Battle.net,DIRECT
