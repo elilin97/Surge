@@ -4,6 +4,8 @@
 #!category=🥰 Lin's Settings
 
 [General]
+include-all-networks = true
+include-apns = true
 ipv6 = true
 ipv6-vif = auto
 tun-excluded-routes = 127.0.0.0/8
